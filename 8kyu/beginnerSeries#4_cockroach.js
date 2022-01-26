@@ -4,3 +4,5 @@ const cockroachSpeed = s => {
 
   return Math.floor(s * conversionRate);
 }
+
+console.log(cockroachSpeed(0));
