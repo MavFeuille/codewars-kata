@@ -7,3 +7,5 @@ const past = (h, m, s) => {
 
   return totalMillisecond;
 }
+
+console.log(past(1,2,3))
