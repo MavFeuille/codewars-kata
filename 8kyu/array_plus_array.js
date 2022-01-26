@@ -7,3 +7,5 @@ const arrayPlusArray = (arr1, arr2) => {
   }
   return sum;
 }
+
+console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]));
