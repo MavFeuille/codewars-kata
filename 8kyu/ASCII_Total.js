@@ -8,4 +8,4 @@ const uniTotal = (string) => {
 }
 
 console.log(uniTotal("aaa"));
-uniTotal("Mary Had A Little Lamb");
+console.log(uniTotal("Mary Had A Little Lamb"));
