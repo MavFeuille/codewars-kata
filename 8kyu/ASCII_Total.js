@@ -2,7 +2,9 @@ const uniTotal = (string) => {
   let sum = 0;
 
   for (let i = 0; i < string.length; i++) {
-    sum += string.charCodeAt(string[i]);
+    if (string[i] !== " "){
+      sum += string.codePointAt(string[i]);
+    }
   }
   return sum;
 }
