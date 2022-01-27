@@ -3,8 +3,9 @@ const uniTotal = (string) => {
 
   for (let i = 0; i < string.length; i++) {
     sum += string.charCodeAt(string[i]);
-    console.log("sum: ", sum);
   }
+  return sum;
 }
 
 console.log(uniTotal("aaa"));
+uniTotal("Mary Had A Little Lamb");
