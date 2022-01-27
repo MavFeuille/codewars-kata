@@ -1,5 +1,6 @@
 const getChar = (c) => {
-  return string.fromCharCode(c);
+  return String.fromCharCode(c);
 }
 
 console.log(getChar(65));
+console.log(getChar(61));
