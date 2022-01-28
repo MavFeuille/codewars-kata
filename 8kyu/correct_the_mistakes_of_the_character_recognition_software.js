@@ -3,3 +3,5 @@ const correct = (string) => {
 }
 
 console.log(correct("L0ND0N"));
+console.log(correct("BUDAPE5T"));
+console.log(correct("PAR15"));
