@@ -3,4 +3,5 @@ const squareArea = (A) => {
 }
 
 console.log(squareArea(3));
+console.log(squareArea(5));
 
