@@ -3,3 +3,4 @@ const paperwork = (n, m) => {
 }
 
 console.log(paperwork(5,5));
+console.log(paperwork(10,10));
